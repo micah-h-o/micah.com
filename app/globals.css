@@ -2,20 +2,26 @@
 
 :root {
   --background: #ffffff;
-  --surface-subtle: #f9f8f8;
-  --foreground: #171717;
+  --font-primary: #171717;
+  --font-secondary: #888888;
 }
 
 @theme inline {
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-surface-subtle: var(--surface-subtle);
+  --color-font-primary: var(--font-primary);
+  --color-font-secondary: var(--font-secondary);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
+  color: var(--font-primary);
   font-family: var(--font-sans), Helvetica, sans-serif;
+}
+
+@layer base {
+  a {
+    text-decoration: underline;
+  }
 }
