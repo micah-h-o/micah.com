@@ -1,1 +1,1 @@
-Simple and lightweight, built in Next.js and TypeScript and statically exported.
+Simple and lightweight, built in Next.js and TypeScript. Newly built, and a work in progress!
